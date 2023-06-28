@@ -1,0 +1,9 @@
+{
+  "size": 1,
+  "query": {
+    "term": {
+      "run_id":%{[run_id]}
+    }
+  },
+  "_source": ["workflow_id"]
+}
